@@ -74,8 +74,8 @@ typedef struct program_data_s {
 }program_data_t;
 
 
-int lmem_used;
-int shared_l2;
+extern int lmem_used;
+extern int shared_l2;
 
 //void classical_tree_based_stackdist(char* inputFileName, long lines);
 void classical_tree_based_stackdist(char* inputFileName, int kernel_id, int sm_id, long lines, long assoc, char* output_directory);

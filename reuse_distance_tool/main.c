@@ -5,6 +5,8 @@
 #include "process_args.h"
 #include "seperate.h"
 
+int lmem_used = 0;
+int shared_l2 = 0;
 
 int main(int argc, char **argv){
     
