@@ -43,4 +43,4 @@ logs/
 outputs*/
 deprecated/
 micro_benchmark/kll
-test/
+# test/

@@ -1,0 +1,13 @@
+[
+  {
+    "backend": "torch",
+    "dtype": "torch.float16",
+    "M": 512,
+    "N": 8192,
+    "K": 29568,
+    "avg_time_ms": 1.4100666046142578,
+    "tflops": 175.90258540436326,
+    "total_flops": 248034361344,
+    "device": "NVIDIA L40S"
+  }
+]
